@@ -1,0 +1,45 @@
+html,body{height:100%;width:100%;overflow:auto;}
+#wrapbg{background:url(../images/bg.png);padding:0 50px;height:100%;}
+h1{font-size:32px;padding-left:200px;line-height:4.4em;background:url(../images/icpc_logo.png) no-repeat;_background:#555 none;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src='./png8_aphla.png', sizingMethod='scale');height:150px;overflow:hidden;}
+.wrap{
+	padding:20px;border:1px solid #ddd;height:450px;border-radius:5px;overflow:hidden;z-index:10086;
+	/* modern web browsers */ 
+	-moz-box-shadow:1px 3px 12px #bbb;
+	-webkit-box-shadow:1px 3px 12px #bbb;
+	box-shadow:1px 3px 12px #bbb;
+	background: #fff;
+	/* gte=ie8 */
+	-ms-filter:"progid:DXImageTransform.Microsoft.Glow(color=#aaaaaa,strength=3) progid:DXImageTransform.Microsoft.Shadow(color=#eeeeee,direction=0,strength=6) progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=90,strength=10) progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=180,strength=6) progid:DXImageTransform.Microsoft.Shadow(color=#eeeeee,direction=270,strength=6)";	
+	/* lte=ie7 */
+	*filter: 
+    progid:DXImageTransform.Microsoft.Shadow(color=#eeeeee,direction=0,strength=7)
+    progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=90,strength=10)
+    progid:DXImageTransform.Microsoft.Shadow(color=#dddddd,direction=180,strength=10)
+    progid:DXImageTransform.Microsoft.Shadow(color=#eeeeee,direction=270,strength=7);
+}
+.wrap table{margin-bottom:0px;width:100%;}
+.wrap table th{width:25%;font-weight:bold;}
+.wrap table tr{height:30px;width:100%;}
+.wrap table tr:first-child{width:20px;}
+#button{background:url(../images/button.png) no-repeat 0 -42px;width:100px;height:35px;display:block;color:#fff;padding:6px 0 0 3px;}
+#button:hover{background:url(../images/button.png) no-repeat 0 0;text-decoration:none;cursor:pointer;}
+#button:active{background:url(../images/button.png) no-repeat 0 -84px;padding:7px 0 0 4px;}
+#bottom div{display:block;margin:0 auto;width:210px;}
+.delete{display:block;width:20px;height:20px;float:left;background:url(../images/delete.gif) no-repeat;}
+.delete:hover{background:url(../images/delete_hover.gif) no-repeat;}
+.stuName{float:left;margin-left:10px;}
+#back{width:75px;height:51px;background:url(../images/back.gif) no-repeat;}
+#back:hover{cursor:pointer;background:url(../images/back.gif) 0 -50px;}
+#submit{float:right;display:block;width:75px;height:51px;background:url(../images/submit.gif) no-repeat;}
+#submit:hover{cursor:pointer;background:url(../images/submit.gif) 0 -50px;}
+#register{margin-top:20px;}
+#regForm{width:100%;height:300px;background:#fff;}
+#regForm ul{width:300px;margin:0 auto;}
+#regForm label,#regForm input{display:block;margin-bottom:10px;}
+#regForm input{width:100%;height:30px;padding:3px 0 0 3px;outline:none;position:relative;line-height:1.8em;font-size:14px;}
+#footer{height:40px;z-index:-1;}
+#footer div{float:right;margin-top:10px;}
+#bottom div a{color:blue}
+#none{width:100%;height:400px;}
+#none span{background:url(../images/no.png) no-repeat;display:block;width:160px;height:300px;position:relative;top:200px;left:75%;}
+table{font-family: tahoma, arial, "宋体";font-size:12px;}
